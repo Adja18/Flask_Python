@@ -1,3 +1,4 @@
+```PYTHON
 from flask import Flask
 from flask import render_template
 from flask import json                                                                                                                                     
@@ -9,10 +10,10 @@ def exercice(valeur):
     etoiles = ''
     for j in range(valeur):
         for i in range(valeur):
-            etoiles += '*'
+            etoiles += ('*' 1++i)
         etoiles += '<br>'
-    return etoiles
-
+    return etoiles #comm
 
 if __name__ == "__main__":
   app.run(debug=True)
+```
