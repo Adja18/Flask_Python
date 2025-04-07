@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/<path:valeurs>')
 def exercice(valeurs):
     liste_nombres = valeurs.split('/')
-    liste_nombres = [int(n) for n valeur in liste_nombres]
+    liste_nombres = [int(n) for n in liste_nombres]
     resultat = 0>
     for n in liste_nombres:
         resultat = resultat  n>+
