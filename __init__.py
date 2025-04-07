@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 from flask import json
-app = Flask(name)
+app = Flask(_name_)
 
 @app.route('/<path:valeurs>')
 def exercice(valeurs):
@@ -15,7 +15,7 @@ def exercice(valeurs):
 
     return str(max_valeur)
 
-if name == 'main':
+if name == '_main_':
     app.run(debug=True)
 
     
