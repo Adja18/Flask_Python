@@ -8,7 +8,7 @@ app = Flask(name)
 def exercice(1):
     a, b = 0, 1
     sequence = [a, b]
-    for  in range(2, 1):
+    for  in range(2, n):
         a, b = b, a + b
         sequence.append(b)
 
