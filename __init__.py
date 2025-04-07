@@ -5,8 +5,7 @@ from flask import json
 app = Flask(__name__)                                                                                                                  
 
 
-    @app.route('/<int:valeur>')
-def exercice(valeur):
+
     pyramide = ''
     for i in range(1, valeur + 1):
         # Espaces pour centrer
