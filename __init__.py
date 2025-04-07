@@ -4,11 +4,11 @@ from flask import json
 
 app = Flask(name)
 
-@app.route('/<int:n>')
+@app.route('/<int:valeur>')
 def exercice(1):
     a, b = 0, 1
     sequence = [a, b]
-    for  in range(2, n):
+    for  in range(2, valeur):
         a, b = b, a + b
         sequence.append(b)
 
