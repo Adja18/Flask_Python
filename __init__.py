@@ -5,16 +5,15 @@ from flask import json
 app = Flask(__name__)                                                                                                                  
 
 
-
-    chiffres = ''
-    for j in range(valeur):int
-        for i in range(valeur):int
-           chiffres += '++'   
-        for k in range(j+1):
-            chiffres += '*'
-          chiffres += '<br>'
-    return chiffres
-
+pyramide= ''
+for i in range(1, valeur +1):
+    pyramide += '&nbsp;' * (valeur - i)
+    for j in range(1, i + 1):
+        pyramide +=str(j)
+        for j in range(i -1, 0, -1):
+            pyramide +=str(j)
+            pyramide +='<br>'
+            return pyramide
 
 
 
